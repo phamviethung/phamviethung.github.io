@@ -7,7 +7,7 @@ var bio = {
         "skype": "hungpv.esoft",
         "location": "11 Doi Cung, Le Dai Hanh, Hanoi"
 	},
-    "picture": "hungpv.jpg",
+    "picture": "http://i.imgur.com/YY2HK8q.jpg",
     "welcomeMessage": "I'm currently working as a Solution Lead at Elcom. Thanks for stopping by!",
     "skills": ["Solution lead", "Solution architect", "Research"]
 };
