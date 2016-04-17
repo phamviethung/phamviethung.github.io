@@ -26,7 +26,7 @@ var work = {
             "title": "Trainee",
             "location": "280B Lac Long Quan, Hanoi",
             "datesWorked": "April 2011 - June 2011",
-            "description": "Led the telecoms team. Work with customer, partner, sales team and development team to give technical solution. Participate in project bidding."
+            "description": "Study cellular network planning and optimization."
         },
 		{
             "employer": "Thang Long",
