@@ -9,7 +9,7 @@ var bio = {
 	},
     "picture": "http://i.imgur.com/YY2HK8q.jpg",
     "welcomeMessage": "I'm currently working as a Solution Lead at Elcom. Thanks for stopping by!",
-    "skills": ["Solution lead", "Solution architect", "Research"]
+    "skills": ["Solution lead", "Research", "Presale"]
 };
 
 var work = {
@@ -18,21 +18,21 @@ var work = {
             "employer": "Elcom Software Solution",
             "title": "Solution Lead",
             "location": "15 Duy Tan, Dich Vong, Hanoi",
-            "datesWorked": "June 2011 - Now",
-            "description": "Led the telecoms team. Work with customer, partner, sales team and development team to give technical solution. Participate in project bidding."
+            "datesWorked": "November 2015 - Now",
+            "description": "Lead the telecoms team"
 		},
         {
-            "employer": "Gtel Mobile",
-            "title": "Trainee",
-            "location": "280B Lac Long Quan, Hanoi",
-            "datesWorked": "April 2011 - June 2011",
-            "description": "Study cellular network planning and optimization."
+            "employer": "Elcom Software Solution",
+            "title": "Presale",
+            "location": "15 Duy Tan, Dich Vong, Hanoi",
+            "datesWorked": "June 2011 - August 2015",
+            "description": "Work with customer, partner, sales team and development team to give technical solution. Participate in project bidding."
         },
 		{
             "employer": "Thang Long",
             "title": "Maths Tutor",
             "location": "11 Doi Cung, Le Dai Hanh, Hanoi",
-            "datesWorked": "September 2006 - April 2011",
+            "datesWorked": "September 2006 - May 2011",
             "description": "Taught maths for high school pupils."
 		}
 	]
@@ -54,6 +54,7 @@ var education = {
         }
 	],
 	"onlineCourses": [
+	/*
 		{ "school": "Udacity",
 			"title": "Object-Oriented Javascript",
 			"completed": "November 2014",
@@ -79,6 +80,7 @@ var education = {
 			"completed": "August 2014",
 			"url": "https://www.udacity.com/course/cs253"
 		}
+		*/
 	]
 };
 
@@ -87,17 +89,18 @@ var projects = {
         {
             "title": "Value Added Service (VAS)",
             "datesWorked": "June 2011 - April 2014",
-            "description": "Created the technical proposal for most telecoms VAS services such as: MCA, Voice mail, Notify me, CRBT, Pay for me, Signature call,  and other services based on SS7.",
+            "description": "Created the technical proposal for most telecoms VAS services such as: MCA, Voice mail, Notify me, CRBT, Pay for me, Signature call, and other services based on SS7.",
             //"images": ["images/.jpg"],
-            "url": "http://mobifone.vn/wps/portal/public/dich-vu/tien-ich/tien-ich-chi-tiet/mca/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOK9jUwMjPwtjLz9zV1MDBx9A8JcAo1NjN2DDPSDyzL1C7IdFQG5pNUp/"
+            "url": "#"
         },
         {
             "title": "Operations Support Systems (OSS) & Business Support Systems (BSS)",
             "datesWorked": "May 2014 - Now",
-            "description": "Created the technical proposal for some OSS & BSS systems such as: SMPPGw, USSDGw, MNP, OCS Billing, CRM.",
-            "url": "http://www.iconectiv.com/number-portability/clearinghouse/"
+            "description": "Created the technical proposal for some OSS & BSS systems such as: SMPPGw, USSDGw, Mediation, MNP, OCS Billing, CRM.",
+            "url": "#"
 
-        },
+        }
+		/*
         {
             "title": "ETL, Data warehouse & BI",
             "datesWorked": "June 2014",
@@ -173,6 +176,7 @@ var projects = {
             "url": "http://research.ijcaonline.org/volume57/number7/pxc3883311.pdf"
 
         }
+		*/
 	]
 };
 
@@ -189,7 +193,7 @@ formattedContactInfo.push(HTMLskype.replace("%data%", bio.contacts.skype));
 formattedContactInfo.push(HTMLlocation.replace("%data%", bio.contacts.location));
 
 
-$("#header").prepend(formattedRole);
+//$("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
 $("#header").append(formattedBioPic);
 $("#header").append(formattedWelcomeMsg);
