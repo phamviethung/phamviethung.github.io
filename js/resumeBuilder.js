@@ -89,14 +89,14 @@ var projects = {
         {
             "title": "Value Added Service (VAS)",
             "datesWorked": "June 2011 - April 2014",
-            "description": "Created the technical proposal for most telecoms VAS services such as: MCA, Voice mail, Notify me, CRBT, Pay for me, Signature call, and other services based on SS7.",
+            "description": "MCA, Voice mail, Notify me, CRBT, Pay for me, Signature call, and other services based on SS7.",
             //"images": ["images/.jpg"],
             "url": "#"
         },
         {
             "title": "Operations Support Systems (OSS) & Business Support Systems (BSS)",
             "datesWorked": "May 2014 - Now",
-            "description": "Created the technical proposal for some OSS & BSS systems such as: SMPPGw, USSDGw, Mediation, MNP, OCS Billing, CRM.",
+            "description": "SMPPGw, USSDGw, Mediation, MNP, OCS Billing, CRM.",
             "url": "#"
 
         }
