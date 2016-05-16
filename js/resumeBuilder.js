@@ -5,7 +5,7 @@ var bio = {
         "email": "hungpv@hnivc.edu.vn",
         "mobile": "0986119898",
         "skype": "hungpv.esoft",
-        "location": "11 Doi Cung, Le Dai Hanh, Hanoi"
+        "location": "Allay 11 Doi Cung, Le Dai Hanh, Hanoi"
 	},
     "picture": "http://i.imgur.com/YY2HK8q.jpg",
     "welcomeMessage": "I'm currently working as a Solution Lead at Elcom. Thanks for stopping by!",
@@ -17,19 +17,19 @@ var work = {
 		{
             "employer": "Elcom Software Solution",
             "title": "Solution Lead",
-            "location": "15 Duy Tan, Dich Vong, Hanoi",
+            "location": "Allay 15 Duy Tan, Dich Vong, Hanoi",
             "datesWorked": "November 2015 - Now",
             "description": "Lead the telecoms team"
 		},
         {
             "employer": "Elcom Software Solution",
             "title": "Presale",
-            "location": "15 Duy Tan, Dich Vong, Hanoi",
+            "location": "Allay 15 Duy Tan, Dich Vong, Hanoi",
             "datesWorked": "June 2011 - August 2015",
             "description": "Work with customer, partner, sales team and development team to give technical solution. Participate in project bidding."
         },
 		{
-            "employer": "Thang Long",
+            "employer": "",
             "title": "Maths Tutor",
             "location": "11 Doi Cung, Le Dai Hanh, Hanoi",
             "datesWorked": "September 2006 - May 2011",
@@ -43,13 +43,13 @@ var education = {
         { "name": "Hanoi university of science and technology",
             "location": "1 Dai Co Viet, Hanoi",
             "datesAttended": "2015 - 2017",
-            "degree": "M.Sc. Information Technology",
+            "degree": "M.Sc",
             "major": "Information Technology"
         },
         { "name": "University of transport and communication",
             "location": "3 Cau Giay, Hanoi",
             "datesAttended": "2006 - 2011",
-            "degree": "B.Sc. Telecoms Engineering",
+            "degree": "B.Sc",
             "major": "Telecoms Engineering"
         }
 	],
