@@ -17,14 +17,14 @@ var work = {
 		{
             "employer": "Elcom Software Solution",
             "title": "Solution Lead",
-            "location": "Allay 15 Duy Tan, Dich Vong, Hanoi",
+            "location": "Allay 15 Duy Tan, Hanoi",
             "datesWorked": "November 2015 - Now",
             "description": "Lead the telecoms team"
 		},
         {
             "employer": "Elcom Software Solution",
             "title": "Presale",
-            "location": "Allay 15 Duy Tan, Dich Vong, Hanoi",
+            "location": "Allay 15 Duy Tan, Hanoi",
             "datesWorked": "June 2011 - August 2015",
             "description": "Work with customer, partner, sales team and development team to give technical solution. Participate in project bidding."
         },
