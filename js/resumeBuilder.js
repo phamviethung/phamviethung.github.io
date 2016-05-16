@@ -5,7 +5,7 @@ var bio = {
         "email": "hungpv@hnivc.edu.vn",
         "mobile": "0986119898",
         "skype": "hungpv.esoft",
-        "location": "Đội Cung, Hanoi"
+        "location": "Allay 11 Doi Cung, Hanoi"
 	},
     "picture": "http://i.imgur.com/YY2HK8q.jpg",
     "welcomeMessage": "I'm currently working as a Solution Lead at Elcom. Thanks for stopping by!",
@@ -17,21 +17,21 @@ var work = {
 		{
             "employer": "Elcom Software Solution",
             "title": "Solution Lead",
-            "location": "Duy Tan, Dich Vong, Hanoi",
+            "location": "Allay 15 Duy Tan, Dich Vong, Hanoi",
             "datesWorked": "November 2015 - Now",
             "description": "Lead the telecoms team"
 		},
         {
             "employer": "Elcom Software Solution",
             "title": "Presale",
-            "location": "Duy Tan, Dich Vong, Hanoi",
+            "location": "Allay 15 Duy Tan, Dich Vong, Hanoi",
             "datesWorked": "June 2011 - August 2015",
             "description": "Work with customer, partner, sales team and development team to give technical solution. Participate in project bidding."
         },
 		{
             "employer": "",
             "title": "Maths Tutor",
-            "location": "Đội Cung, Hanoi",
+            "location": "Allay 11 Doi Cung, Hanoi",
             "datesWorked": "September 2006 - May 2011",
             "description": "Taught maths for high school pupils."
 		}
