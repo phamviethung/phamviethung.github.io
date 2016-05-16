@@ -138,7 +138,7 @@ function initializeMap() {
     }
     */
 	locations.push("1 Đại Cồ Việt, Hanoi, Vietnam");
-	locations.push("Trường Đại học Giao thông vận tải");
+	locations.push("3 Cầu Giấy, Hanoi, Vietnam");
     // iterates through work locations and appends each location to
     // the locations array
 	/*
