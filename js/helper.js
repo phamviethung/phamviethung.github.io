@@ -132,21 +132,19 @@ function initializeMap() {
     
     // iterates through school locations and appends each location to
     // the locations array
-	/*
+	
     for (var school in education.schools) {
       locations.push(education.schools[school].location);
     }
-    */
-	locations.push("1 Đại Cồ Việt, Hanoi, Vietnam");
-	locations.push("3 Cầu Giấy, Hanoi, Vietnam");
+    
+	
     // iterates through work locations and appends each location to
     // the locations array
-	/*
+	
     for (var job in work.jobs) {
       locations.push(work.jobs[job].location);
     }
-    */
-	locations.push("Ngõ 15 Duy Tân, Dịch Vọng Hậu, Hanoi, Vietnam");
+    
     return locations;
   }
 

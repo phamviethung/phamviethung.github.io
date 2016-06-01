@@ -5,7 +5,7 @@ var bio = {
         "email": "hungpv@hnivc.edu.vn",
         "mobile": "0986119898",
         "skype": "hungpv.esoft",
-        "location": "Allay 11 Doi Cung, Hanoi"
+        "location": "11 Doi Cung, Hanoi"
 	},
     "picture": "http://i.imgur.com/YY2HK8q.jpg",
     "welcomeMessage": "I'm currently working as a Solution Lead at Elcom. Thanks for stopping by!",
@@ -17,21 +17,21 @@ var work = {
 		{
             "employer": "Elcom Software Solution",
             "title": "Solution Lead",
-            "location": "Allay 15 Duy Tan, Hanoi",
+            "location": "15 Duy Tan, Hanoi",
             "datesWorked": "November 2015 - Now",
             "description": "Lead the telecoms team"
 		},
         {
             "employer": "Elcom Software Solution",
             "title": "Presale",
-            "location": "Allay 15 Duy Tan, Hanoi",
+            "location": "15 Duy Tan, Hanoi",
             "datesWorked": "June 2011 - August 2015",
             "description": "Work with customer, partner, sales team and development team to give technical solution. Participate in project bidding."
         },
 		{
             "employer": "",
             "title": "Maths Tutor",
-            "location": "Allay 11 Doi Cung, Hanoi",
+            "location": "11 Doi Cung, Hanoi",
             "datesWorked": "September 2006 - May 2011",
             "description": "Taught maths for high school pupils."
 		}
@@ -88,36 +88,36 @@ var projects = {
 	"projects": [
         {
             "title": "Value Added Service (VAS)",
-            "datesWorked": "June 2011 - April 2014",
+            "datesWorked": "2011 - 2014",
             "description": "MCA, Voice mail, Notify me, CRBT, Pay for me, Signature call, and other services based on SS7.",
             //"images": ["images/.jpg"],
             "url": "#"
         },
         {
             "title": "Operations Support Systems (OSS) & Business Support Systems (BSS)",
-            "datesWorked": "May 2014 - Now",
+            "datesWorked": "2014 - Now",
             "description": "SMPPGw, USSDGw, Mediation, MNP, OCS Billing, CRM.",
             "url": "#"
 
-        }
-		/*
+        },
+		
         {
             "title": "ETL, Data warehouse & BI",
-            "datesWorked": "June 2014",
+            "datesWorked": "2014",
             "description": "Created a data warehouse and reports using Pentaho.",
             "url": "http://www.pentaho.com/"
 
         },
         {
             "title": "Mediation",
-            "datesWorked": "October 2014",
+            "datesWorked": "2014",
             "description": "Created the technical proposal for MIC using IBM InfoSphere Streams.",
             "url": "http://www-03.ibm.com/software/products/en/ibm-streams"
 
         },
         {
             "title": "Find Friends",
-            "datesWorked": "March 2015",
+            "datesWorked": "2014",
             "description": "Implemented a find friends algorithm using MapReduce.",
             "url": "http://stevekrenzel.com/finding-friends-with-mapreduce"
 
@@ -125,58 +125,58 @@ var projects = {
         },
         {
             "title": "Big Data Search Engine",
-            "datesWorked": "May 2015",
+            "datesWorked": "2015",
             "description": "Created a search engine for big data using Elasticsearch.",
             "url": "https://www.elastic.co/"
         },
         {
             "title": "Chat Service",
-            "datesWorked": "October 2015",
+            "datesWorked": "2015",
             "description": "Created a real time chat using Javascript.",
             "url": "http://socket.io/"
 
         },
         {
             "title": "Ecosystem balance",
-            "datesWorked": "November 2015",
+            "datesWorked": "2015",
             "description": "Simulated the balance of the ecosystem using NetLogo.",
             "url": "https://ccl.northwestern.edu/netlogo/"
 
         },
         {
             "title": "Search And Recommendation Engine",
-            "datesWorked": "February 2016",
+            "datesWorked": "2016",
             "description": "Created a movie search and recommendation website using Elasticsearch, Mahout and ExpressJS.",
             "url": "http://mahout.apache.org/"
 
         },
         {
             "title": "Detecting tension in online communities",
-            "datesWorked": "September 2015",
+            "datesWorked": "2015",
             "description": "Created and evaluated some methods to detect tension in online communities using human code and Weka machine learning library.",
             "url": "http://www.sciencedirect.com/science/article/pii/S0040162513000899"
         },
         {
             "title": "Constraint Based Local Search",
-            "datesWorked": "April 2016",
+            "datesWorked": "2016",
             "description": "Studied a Java CBLS library to solve some constraint based problems such as: 8-queens, sudoku, bin packing, balanced academic curriculum, timetabling.",
             "url": "http://dl.acm.org/citation.cfm?id=2833300"
         },
         {
             "title": "Image Compression",
-            "datesWorked": "April 2016",
+            "datesWorked": "2016",
             "description": "Created a JPEG compression application and evaluate the compress ratio, RMSE and PSNR using Java.",
             "url": "http://disp.ee.ntu.edu.tw/meeting/%E7%B6%AD%E6%AF%85/An%20Introduction%20to%20Image%20Compression/An%20introduction%20to%20Image%20Compression.pdf"
 
         },
         {
             "title": "Fuzzy Rule Base System for Diagnosis",
-            "datesWorked": "August 2015",
+            "datesWorked": "2015",
             "description": "Created a fuzzy rule base system to diagnose of the heart disease using matlab.",
             "url": "http://research.ijcaonline.org/volume57/number7/pxc3883311.pdf"
 
         }
-		*/
+		
 	]
 };
 
