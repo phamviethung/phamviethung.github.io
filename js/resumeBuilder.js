@@ -89,14 +89,14 @@ var projects = {
         {
             "title": "Value Added Service (VAS)",
             "datesWorked": "2011 - 2014",
-            "description": "MCA, Voice mail, Notify me, CRBT, Pay for me, Signature call, and other services based on SS7.",
+            "description": "Provided technical solution for services such as MCA, Voice mail, Notify me, CRBT, Pay for me, Signature call, and other services based on SS7.",
             //"images": ["images/.jpg"],
             "url": "#"
         },
         {
             "title": "Operations Support Systems (OSS) & Business Support Systems (BSS)",
             "datesWorked": "2014 - Now",
-            "description": "SMPPGw, USSDGw, Mediation, MNP, OCS Billing, CRM.",
+            "description": "Provided technical solution for systems such as SMPPGw, USSDGw, Mediation, MNP, OCS Billing, CRM.",
             "url": "#"
 
         },
@@ -108,13 +108,7 @@ var projects = {
             "url": "http://www.pentaho.com/"
 
         },
-        {
-            "title": "Mediation",
-            "datesWorked": "2014",
-            "description": "Created the technical proposal for MIC using IBM InfoSphere Streams.",
-            "url": "http://www-03.ibm.com/software/products/en/ibm-streams"
-
-        },
+        
         {
             "title": "Find Friends",
             "datesWorked": "2014",
@@ -123,19 +117,15 @@ var projects = {
 
 
         },
+        
         {
-            "title": "Big Data Search Engine",
+            "title": "MCA Dashboard",
             "datesWorked": "2015",
-            "description": "Created a search engine for big data using Elasticsearch.",
-            "url": "https://www.elastic.co/"
-        },
-        {
-            "title": "Chat Service",
-            "datesWorked": "2015",
-            "description": "Created a real time chat using Javascript.",
-            "url": "http://socket.io/"
+            "description": "Created dashboard for MCA service based on system log files using Elasticsearch & Kibana.",
+            "url": "https://drive.google.com/file/d/0B3WiTKgzdU-VdDFuY0NSUmxsT2M/view?usp=sharing"
 
         },
+
         {
             "title": "Ecosystem balance",
             "datesWorked": "2015",
@@ -147,7 +137,7 @@ var projects = {
             "title": "Search And Recommendation Engine",
             "datesWorked": "2016",
             "description": "Created a movie search and recommendation website using Elasticsearch, Mahout and ExpressJS.",
-            "url": "http://mahout.apache.org/"
+            "url": "https://drive.google.com/file/d/0B3WiTKgzdU-VTUVJM3hMQ2RVTGs/view?usp=sharing"
 
         },
         {
@@ -159,11 +149,11 @@ var projects = {
         {
             "title": "Constraint Based Local Search",
             "datesWorked": "2016",
-            "description": "Studied a Java CBLS library to solve some constraint based problems such as: 8-queens, sudoku, bin packing, balanced academic curriculum, timetabling.",
+            "description": "Studied to use a Java CBLS library to solve some constraint based problems such as: 8-queens, sudoku, bin packing, balanced academic curriculum, timetabling.",
             "url": "http://dl.acm.org/citation.cfm?id=2833300"
         },
         {
-            "title": "Image Compression",
+            "title": "JPEG Compression",
             "datesWorked": "2016",
             "description": "Created a JPEG compression application and evaluate the compress ratio, RMSE and PSNR using Java.",
             "url": "http://disp.ee.ntu.edu.tw/meeting/%E7%B6%AD%E6%AF%85/An%20Introduction%20to%20Image%20Compression/An%20introduction%20to%20Image%20Compression.pdf"
