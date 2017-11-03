@@ -1,0 +1,180 @@
+//サイドナビ関係の設定
+var fixedSidebar = (function() {
+    var navi,
+        wrap,
+        wrap_scroll,
+        fixed_start,
+        fixpx_end_top;
+    return {
+        run: function() {
+            // サイドバーの固定するレイヤー
+            navi = $('.fixnav');
+            // ラッパーのレイヤー
+            wrap = $('.wrapper');
+            this.refresh();
+        },
+        refresh: function() {
+            navi.css({
+                position: 'relative',
+                top: 'auto',
+                'margin-left': 'auto'
+            });
+            var navi_top = navi.offset().top;
+            var wrap_top = wrap.offset().top;
+            // 開始位置：ナビのTOP
+            fixed_start = navi_top - parseInt(navi.css('margin-top'));
+            // スクロールする上限
+            fixpx_end_top = wrap_top + wrap.outerHeight() - navi.outerHeight(true);
+            wrap_scroll = fixpx_end_top;
+            if (navi_top + navi.outerHeight(true) < wrap_top + wrap.outerHeight(true)) {
+                $(window).off('scroll', _onScroll).on('scroll', _onScroll);
+            } else {
+                $(window).off('scroll', _onScroll);
+            }
+            $(window).trigger('scroll');
+        }
+    };
+
+    function _onScroll() {
+        var ws = $(window).scrollTop();
+        var sl = $(window).scrollLeft()
+        if (ws > fixpx_end_top) {
+            // 固定する上限
+            navi.css({
+                position: 'fixed',
+                top: (fixpx_end_top - ws) + 'px',
+                'margin-left': '-' + sl + 'px'
+            });
+        } else if (ws > fixed_start) {
+            // 固定中間
+            navi.css({
+                position: 'fixed',
+                top: '0px',
+                'margin-left': '-' + sl + 'px'
+            });
+        } else {
+            //　固定開始まで
+            navi.css({
+                position: 'relative',
+                top: '0px',
+                'margin-left': 'auto'
+            });
+        }
+    }
+})();
+
+//サイドナビ作動
+$(window).on('load', function() {
+    fixedSidebar.run();
+});
+
+
+$(function() {
+    //ハンバーガーメニュー
+    var $header = $('#top-head');
+    // Nav Toggle Button
+    $('#nav-toggle,#global-nav a').click(function() {
+        $header.toggleClass('open');
+    });
+    //プライバシーポリシー
+    $(".p-policy").colorbox({ inline: true, width: "80%" });
+});
+
+
+//スライド用　PCとSPの設定切り替え
+var $win = $(window);
+
+$win.on('load', function() {
+    if (window.matchMedia('(max-width:640px)').matches) {
+        $('.slide_body').bxSlider({
+            pager: false,
+            auto: true,
+            speed: 500,
+            controls: true,
+            nextText: 'Next',
+            prevText: 'Prev',
+            nextSelector: null,
+            prevSelector: null,
+            slideMargin: 0
+        });
+        //スムーススクロール
+        $('a[href^=#]' + 'a:not([href *= "inline-privacy-policy"])').click(function() {
+            var speed = 500;
+            var href = $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top - 60;
+            $("html, body").animate({ scrollTop: position }, speed, "swing");
+            return false;
+        });
+        //もっと見るボタン
+        $('.btn-more').prevAll().hide();
+        $('.btn-more').click(function() {
+            if ($(this).prevAll().is(':hidden')) {
+                $(this).prevAll().slideDown();
+                $(this).text('閉じる').addClass('close');
+            } else {
+                $(this).prevAll().slideUp();
+                $(this).text('もっと見る').removeClass('close');
+            }
+        });
+    } else {
+        var slideNum = $('.slide').size();
+        $('.slide_body').bxSlider({
+            pager: false,
+            auto: true,
+            speed: 500,
+            controls: true,
+            nextText: 'Next',
+            prevText: 'Prev',
+            nextSelector: null,
+            prevSelector: null,
+            slideWidth: 800,
+            minSlides: 3,
+            maxSlides: 3,
+            moveSlides: 1,
+            slideMargin: 0,
+            onSliderLoad: function(currentIndex) {
+                $('.slide').removeClass('active');
+                $('.slide_body > div:nth-child(3n-1)').addClass('active');
+            },
+            onSlideBefore: function($slideElement, oldIndex, newIndex) {
+                var new_i = newIndex % 3 - 1;
+                var nth = (new_i < 0) ? '3n-1' : '3n' + new_i;
+                $('.slide').removeClass('active');
+                $('.slide_body > div:nth-child(' + nth + ')').addClass('active');
+            }
+        });
+        //スムーススクロール
+        $('a[href^=#]' + 'a:not([href *= "inline-privacy-policy"])').click(function() {
+            var speed = 500;
+            var href = $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top;
+            $("html, body").animate({ scrollTop: position }, speed, "swing");
+            return false;
+        });
+        //もっと見るボタン
+        $('.btn-more').prevAll().hide();
+        $('.btn-more').click(function() {
+            if ($(this).prevAll().is(':hidden')) {
+                $(this).prevAll().slideDown();
+                $(this).text('閉じる').addClass('close');
+                $('.wrapper').css('height', '8041px');
+                $('.main').css('height', '8041px');
+                $('.side').css('height', '8400px');
+                $('.bx-faq').css('height', '1500px');
+                $('.bx-flow').css('top', '6182px');
+                $('.bx-info').css('top', '6741px');
+            } else {
+                $(this).prevAll().slideUp();
+                $(this).text('もっと見る').removeClass('close');
+                $('.wrapper').css('height', '7376px');
+                $('.main').css('height', '7376px');
+                $('.side').css('height', '7736px');
+                $('.bx-faq').css('height', '810px');
+                $('.bx-flow').css('top', '5511px');
+                $('.bx-info').css('top', '6076px');
+            }
+        });
+    }
+});
