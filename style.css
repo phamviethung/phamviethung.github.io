@@ -1,0 +1,96 @@
+
+
+BODY    { MARGIN_TOP: 5px; FONT-SIZE: 13px; MARGIN-BOTTOM: 5px; FONT-FAMILY: Verdana,Sans-Serif; }
+TABLE   { BORDER-COLLAPSE: collapse; PADDING: 0px; }
+
+A       { COLOR: #000080; TEXT-DECORATION: none; }
+A:link  { COLOR: #000080; TEXT-DECORATION: none; }
+A:hover { COLOR: #000080; TEXT-DECORATION: underline; }
+
+table.AllPane { WIDTH: 1000px;  }
+table.TopPane { WIDTH: 100%; HEIGHT: 80px; BACKGROUND-COLOR: #000090; COLOR: #FFFFFF; FONT-WEIGHT: BOLD; } 
+td.LeftTopPane { WIDTH: 140px; }
+td.RightTopPane { }
+
+td.LeftBottomPane { WIDTH: 140px; VERTICAL-ALIGN: Top; }
+td.RightBottomPane { }
+
+//table.table-photo td  { WIDTH: 200px; VERTICAL-ALIGN: text-top; }
+td.table-photo-text { WIDTH: 450px; VERTICAL-ALIGN: text-top; }
+
+table.table-photo img { WIDTH: 153px; HEIGHT: 212px; }
+table.left-info ul { LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none; LIST-STYLE-POSITION: outside; }
+
+table.table-photo1 img { WIDTH: 150px; HEIGHT: 150px; }
+table.left-info ul { LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none; LIST-STYLE-POSITION: outside; }
+
+ul.publications { MARGIN-TOP: 5px; FONT-SIZE: 13px; MARGIN-BOTTOM: 3px; FONT-FAMILY: Verdana,Sans-Serif; }
+li.title { FONT-WEIGHT: BOLD; }
+
+
+#research-topics ul li {
+  padding-bottom: 0px;
+}
+
+#research-topics ul ul {
+  padding-bottom: 12px;
+}
+
+dl.links dt {
+  float: left;
+  clear: both;
+}
+
+dl.links dd {
+  float: left;
+}
+  
+#main-text-publications ul li {
+  padding-bottom: 12px;
+}
+
+#main-text p {
+  margin: 1em 0;
+}
+
+#main-text img {
+  margin: 0.5em;
+}
+#main-text li {
+  padding-bottom: 6px;
+}
+#main-text span.author {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color: inherit;
+}
+#main-text span.title {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-weight: bold;  
+}
+#main-text span.journal {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-weight: normal;
+  color: inherit;
+}
+#main-text dt {
+  float: left;
+  clear: both;
+  width: 150px;
+  padding-bottom: 10px;
+}
+#main-text dd {
+  float: left;
+  width: 400px;
+  height: 100%;
+  margin-left: 0px;
+  padding-bottom: 10px;
+}
+#main-text dl {
+}
+.abstract {
+  padding-top: 5px;
+  font-size: 11px; 
+}
